@@ -8,206 +8,226 @@
 </head>
 <body>
 
-    
-    <header class="lg:hidden">
-        <nav class="flex justify-between px-[15px] py-[10px] lg:px-[100px] lg:py-[10px]">
-            <div class="block1">
-                <p class="font-bold text-[20px] lg:text-white">Physionic</p>
-            </div>
+<header class="lg:hidden">
+    <nav class="flex justify-between px-[15px] py-[10px] lg:px-[100px] lg:py-[10px]">
+        <div class="block1">
+            <p class="font-bold text-[20px] lg:text-white">Physionic</p>
+        </div>
 
-            <div class="block2 flex gap-[20px] lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-</svg>
+        <div class="block2 flex gap-[20px] lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+            </svg>
 
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-</svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </div>
+    </nav>
+
+    <div class="text-[#737373] text-[30px] leading-[70px] text-center mt-[50px] lg:hidden pb-[50px]">
+        <p>Home</p>
+        <p>Product</p>
+        <p>Pricing</p>
+        <p>Contact</p>
+    </div>
+
+    <section class="w-[100%] h-[1000px]" style="background-image: url(./sur/sur2.png); background-position: center; background-repeat: no-repeat; background-size: cover;">
+        <div class="block1 flex flex-col justify-center items-center">
+            <p class=" text-[white] text-[40px] w-[300px] text-center font-bold mb-[30px]">Meet the Best Hospital</p>
+            <p class="text-[white] w-[200px] text-center mb-[30px]">We know how large objects will act, but things on a small scale.</p>
+            <div class="flex flex-col gap-[20px]">
+                <button class="bg-[#23A6F0] px-[30px] py-[7px] text-white rounded-[30px]">Get Quote Now</button>
+                <button class="px-[40px] py-[7px] text-white rounded-[30px] border-solid border-[1px]">Learn More</button>
             </div>
-        </nav>
-        <div class="text-[#737373] text-[30px] leading-[70px] text-center mt-[50px] lg:hidden pb-[50px]">
+        </div>
+
+        
+        <div class="block2 w-[80%] bg-[white] mt-[50px] m-auto rounded-[10px] flex flex-col items-center justify-center py-[40px]">
+            <p class="font-bold text-[30px] mb-[30px]">Book Appointment</p>
+
+            <p class="mb-[10px] w-[240px] text-start">Name</p>
+            <input class="border-solid border-[1px] rounded-[6px] w-[250px] px-[20px] py-[10px] mb-[30px]" type="text" placeholder="Full Name">
+
+            <p class="mb-[10px] w-[240px] text-start">Email</p>
+            <input class="border-solid border-[1px] rounded-[6px] w-[250px] px-[20px] py-[10px] mb-[30px]" type="email" placeholder="example@gmail.com">
+
+            <p class="mb-[10px] w-[240px] text-start">Department</p>
+            <input class="border-solid border-[1px] rounded-[6px] w-[250px] px-[20px] py-[10px] mb-[30px]" type="text" placeholder="Please Select">
+
+            <p class="mb-[10px] w-[240px] text-start">Time</p>
+            <input class="border-solid border-[1px] rounded-[6px] w-[250px] px-[20px] py-[10px] mb-[30px]" type="text" placeholder="4:00 Available">
+
+            <button class="bg-[#23A6F0] text-[white] px-[30px] py-[15px] w-[250px] rounded-[8px]">Book Appointment</button>
+        </div>
+    </section>
+</header>
+
+<header class="hidden lg:block w-[100%] h-[810px] px-[70px]" style="background-image: url(./sur/sur1.png); background-position: center; background-repeat: no-repeat; background-size: cover;">
+    <nav class="flex justify-between px-[15px] py-[10px] lg:px-[100px] lg:py-[10px]">
+        <div class="block1">
+            <p class="font-bold text-[20px] lg:text-white">Physionic</p>
+        </div>
+
+        <!-- FIXED: removed extra "lg:" before gap -->
+        <div class="block3 hidden lg:flex gap-[40px] text-[white]">
             <p>Home</p>
             <p>Product</p>
             <p>Pricing</p>
             <p>Contact</p>
         </div>
 
-        <section class="w-[100%] h-[1000px]" style="background-image: url(./sur/sur2.png); background-position: center; background-repeat: no-repeat; background-size: cover;">
-            <div class="block1 flex flex-col justify-center items-center">
-                <p class=" text-[white] text-[40px] w-[300px] text-center font-bold mb-[30px]">Meet the Best Hospital</p>
-                <p class="text-[white] w-[200px] text-center mb-[30px]">We know how large objects will act, but things on a small scale.</p>
-                <div class="flex flex-col gap-[20px]">
-                    <button class="bg-[#23A6F0] px-[30px] py-[7px] text-white rounded-[30px]">Get Quote Now</button>
-                    <button class="px-[40px] py-[7px] text-white rounded-[30px] border-solid border-[1px]  ">Learn More</button>
-                </div>
-            </div>
-            
+        <div class="block4 hidden lg:flex">
+            <button class="bg-[#23A6F0] px-[15px] py-[10px] text-white rounded">Get Quote Now</button>
+        </div>
+    </nav>
 
-            <div class="block2 w-[80%] h-[600px] bg-[white] mt-[50px] m-auto rounded-[10px] flex flex-col items-center justify-center">
-                <p class="fomt-bold text-[30px] mb-[30px]">Book Appointment</p>
-
-                <p class="mb-[10px] w-[240px] text-start">Name</p>
-                <input class="border-solid border-[1px]  rounded-[6px] w-[250px] px-[20px] py-[10px] mb-[30px]" type="text" placeholder="Full Name">
-
-                  <p class="mb-[10px]  w-[240px] text-start">Email</p>
-                <input class="border-solid border-[1px]  rounded-[6px] w-[250px] px-[20px] py-[10px] mb-[30px]" type="email" placeholder="example@gmail.com">
-
-                  <p class="mb-[10px]  w-[240px] text-start">Department</p>
-                <input class="border-solid border-[1px]  rounded-[6px] w-[250px] px-[20px] py-[10px] mb-[30px]" type="text" placeholder="Please Select">
-
-
-                  <p class="mb-[10px]  w-[240px] text-start">Time</p>
-                <input class="border-solid border-[1px]  rounded-[6px] w-[250px] px-[20px] py-[10px] mb-[30px]" type="text" placeholder="4:00 Available">
-
-                <button class="bg-[#23A6F0] text-[white]  px-[30px] py-[15px] w-[250px] rounded-[8px]">Book Appointment</button>
-
-            </div>
-        </section>
-    </header>
-
-      <header class="hidden lg:block w-[100%] h-[810px] px-[70px]" style="background-image: url(./sur/sur1.png); background-position: center; background-repeat: no-repeat; background-size: cover;">
-        <nav class="flex justify-between px-[15px] py-[10px] lg:px-[100px] lg:py-[10px]">
-            <div class="block1">
-                <p class="font-bold text-[20px] lg:text-white">Physionic</p>
-            </div>
-
-            <div class="block3 hidden lg:flex lg: gap-[40px] text-[white]">
-                 <p>Home</p>
-            <p>Product</p>
-            <p>Pricing</p>
-            <p>Contact</p>
-            </div>
-
-            <div class="block4 hidden lg:flex">
-                <button class="bg-[#23A6F0] px-[15px] py-[10px] text-white rounded">Get Quote Now</button>
-            </div>
-        </nav>
-
-        <section class="flex ">
-
-
-            <div class="block1 self-center m-auto">
-                <p class="lg:text-[60px] lg:text-white lg:w-[400px] lg:font-bold lg:mb-[20px]">Meet the Best Hospital</p>
-                <p class="text-white lg:w-[300px] lg:mb-[30px]">We know how large objects will act, 
+    <section class="flex ">
+        <div class="block1 self-center m-auto">
+            <p class="lg:text-[60px] lg:text-white lg:w-[400px] lg:font-bold lg:mb-[20px]">Meet the Best Hospital</p>
+            <p class="text-white lg:w-[300px] lg:mb-[30px]">We know how large objects will act, 
 but things on a small scale.</p>
- <div class="flex flex-col gap-[20px] lg:flex-row">
-                    <button class="bg-[#23A6F0] px-[30px] py-[7px] text-white rounded-[30px] lg:w-[200px]">Get Quote Now</button>
-                    <button class="px-[40px] py-[7px] text-white rounded-[30px] border-solid border-[1px] lg:w-[200px]">Learn More</button>
-                </div>
+            <div class="flex flex-col gap-[20px] lg:flex-row">
+                <button class="bg-[#23A6F0] px-[30px] py-[7px] text-white rounded-[30px] lg:w-[200px]">Get Quote Now</button>
+                <button class="px-[40px] py-[7px] text-white rounded-[30px] border-solid border-[1px] lg:w-[200px]">Learn More</button>
             </div>
+        </div>
 
+       
+        <div class="block2 w-[30%] bg-[white] mt-[50px] m-auto rounded-[10px] flex flex-col items-center justify-center py-[40px]">
+            <p class="font-bold text-[30px] mb-[30px]">Book Appointment</p>
 
-             <div class="block2 w-[30%] h-[600px] bg-[white] mt-[50px] m-auto rounded-[10px] flex flex-col items-center justify-center ">
-                <p class="fomt-bold text-[30px] mb-[30px]">Book Appointment</p>
+            <p class="mb-[10px] w-[240px] text-start">Name</p>
+            <input class="border-solid border-[1px] rounded-[6px] w-[250px] px-[20px] py-[10px] mb-[30px]" type="text" placeholder="Full Name">
 
-                <p class="mb-[10px] w-[240px] text-start">Name</p>
-                <input class="border-solid border-[1px]  rounded-[6px] w-[250px] px-[20px] py-[10px] mb-[30px]" type="text" placeholder="Full Name">
+            <p class="mb-[10px] w-[240px] text-start">Email</p>
+            <input class="border-solid border-[1px] rounded-[6px] w-[250px] px-[20px] py-[10px] mb-[30px]" type="email" placeholder="example@gmail.com">
 
-                  <p class="mb-[10px]  w-[240px] text-start">Email</p>
-                <input class="border-solid border-[1px]  rounded-[6px] w-[250px] px-[20px] py-[10px] mb-[30px]" type="email" placeholder="example@gmail.com">
+            <p class="mb-[10px] w-[240px] text-start">Department</p>
+            <input class="border-solid border-[1px] rounded-[6px] w-[250px] px-[20px] py-[10px] mb-[30px]" type="text" placeholder="Please Select">
 
-                  <p class="mb-[10px]  w-[240px] text-start">Department</p>
-                <input class="border-solid border-[1px]  rounded-[6px] w-[250px] px-[20px] py-[10px] mb-[30px]" type="text" placeholder="Please Select">
+            <p class="mb-[10px] w-[240px] text-start">Time</p>
+            <input class="border-solid border-[1px] rounded-[6px] w-[250px] px-[20px] py-[10px] mb-[30px]" type="text" placeholder="4:00 Available">
 
+            <button class="bg-[#23A6F0] text-[white] px-[30px] py-[15px] w-[250px] rounded-[8px]">Book Appointment</button>
+        </div>
+    </section>
+</header>
 
-                  <p class="mb-[10px]  w-[240px] text-start">Time</p>
-                <input class="border-solid border-[1px]  rounded-[6px] w-[250px] px-[20px] py-[10px] mb-[30px]" type="text" placeholder="4:00 Available">
-
-                <button class="bg-[#23A6F0] text-[white]  px-[30px] py-[15px] w-[250px] rounded-[8px]">Book Appointment</button>
-
-            </div>
-        </section>
-    </header>
-
-    <main>
-        <section>
-            <div class="block1 flex flex-col items-center py-[50px] lg:mb-[50px]">
-                <p class="font-bold text-[35px] w-[200px] text-center mb-[20px] lg:w-[400px]">Leading Medicine</p>
-                <p class="text-center w-[300px] lg:w-[500px]">Problems trying to resolve 
+<main>
+    <section>
+        <div class="block1 flex flex-col items-center py-[50px] lg:mb-[50px]">
+            <p class="font-bold text-[35px] w-[200px] text-center mb-[20px] lg:w-[400px]">Leading Medicine</p>
+            <p class="text-center w-[300px] lg:w-[500px]">Problems trying to resolve 
 the conflict between the 
 two major realms of Classical 
 physics: Newtonian mechanics </p>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="flex flex-col gap-[80px] lg:flex-row lg:gap-[10px]">
+    <section class="flex flex-col gap-[80px] lg:flex-row lg:gap-[10px]">
 
-            <div class="block1 w-[330px] h-[200px] bg-[#D9EDFF] m-auto pt-[40px] rounded-[12px]">
-                <div class="flex gap-[20px] pl-[40px]">
-                    <div >
-                        <img src="./sur/sur3.png" alt=""> 
-                    </div>
-                    <p class="self-center font-bold">Emergency Case</p>
+        <!-- FIXED: removed h-[200px] + h-[300px] -->
+        <div class="block1 w-[330px] bg-[#D9EDFF] m-auto pt-[40px] rounded-[12px]">
+            <div class="flex gap-[20px] pl-[40px]">
+                <div >
+                    <img src="./sur/sur3.png" alt=""> 
                 </div>
+                <p class="self-center font-bold">Emergency Case</p>
+            </div>
 
-                <div class="w-[330px] h-[300px] mt-[20px] bg-[white] px-[50px] rounded-[12px] border-solid border-[1px] border-[#A9D6FF] py-[25px] text-[#737373] leading-[30px]">
-                    <p>-  The best products start 
+            <div class="w-[330px] mt-[20px] bg-[white] px-[50px] rounded-[12px] border-solid border-[1px] border-[#A9D6FF] py-[25px] text-[#737373] leading-[30px]">
+                <p>-  The best products start 
 with Figma</p>
-<p>- Design with real data</p>
-<p>- Lightning fast prototyping</p>
-<p>- Fastest way to organize</p>
-<p>- Work at the speed of thought.</p>
-    <p class="text-[#23A6F0]">Learn More</p>
+                <p>- Design with real data</p>
+                <p>- Lightning fast prototyping</p>
+                <p>- Fastest way to organize</p>
+                <p>- Work at the speed of thought.</p>
+                <p class="text-[#23A6F0]">Learn More</p>
+            </div>
+        </div>
+
+        <div class="block1 w-[330px] bg-[#D9EDFF] m-auto pt-[40px] rounded-[12px]">
+            <div class="flex gap-[20px] pl-[40px]">
+                <div >
+                    <img src="./sur/sur3.png" alt=""> 
                 </div>
+                <p class="self-center font-bold">Cancer Care</p>
             </div>
 
-             <div class="block1 w-[330px] h-[200px] bg-[#D9EDFF] m-auto pt-[40px]  rounded-[12px]">
-                <div class="flex gap-[20px] pl-[40px]">
-                    <div >
-                        <img src="./sur/sur3.png" alt=""> 
-                    </div>
-                    <p class="self-center font-bold">Cancer Care
-</p>
-                </div>
-
-                <div class="w-[330px] h-[300px] mt-[20px] bg-[white] px-[50px] rounded-[12px] border-solid border-[1px] border-[#A9D6FF] py-[25px] text-[#737373] leading-[30px]">
-                    <p>-  The best products start 
+            <div class="w-[330px] mt-[20px] bg-[white] px-[50px] rounded-[12px] border-solid border-[1px] border-[#A9D6FF] py-[25px] text-[#737373] leading-[30px]">
+                <p>-  The best products start 
 with Figma</p>
-<p>- Design with real data</p>
-<p>- Lightning fast prototyping</p>
-<p>- Fastest way to organize</p>
-<p>- Work at the speed of thought.</p>
-    <p class="text-[#23A6F0]">Learn More</p>
+                <p>- Design with real data</p>
+                <p>- Lightning fast prototyping</p>
+                <p>- Fastest way to organize</p>
+                <p>- Work at the speed of thought.</p>
+                <p class="text-[#23A6F0]">Learn More</p>
+            </div>
+        </div>
+
+        <div class="block1 w-[330px] bg-[#D9EDFF] m-auto pt-[40px] rounded-[12px]">
+            <div class="flex gap-[20px] pl-[40px]">
+                <div >
+                    <img src="./sur/sur3.png" alt=""> 
                 </div>
+                <p class="self-center font-bold">Health Queries</p>
             </div>
 
-             <div class="block1 w-[330px] h-[200px] bg-[#D9EDFF] m-auto pt-[40px]  rounded-[12px]">
-                <div class="flex gap-[20px] pl-[40px]">
-                    <div >
-                        <img src="./sur/sur3.png" alt=""> 
-                    </div>
-                    <p class="self-center font-bold">Health Queries</p>
-                </div>
-
-                <div class="w-[330px] h-[300px] mt-[20px] bg-[white] px-[50px] rounded-[12px] border-solid border-[1px] border-[#A9D6FF] py-[25px] text-[#737373] leading-[30px]">
-                    <p>-  The best products start 
+            <div class="w-[330px] mt-[20px] bg-[white] px-[50px] rounded-[12px] border-solid border-[1px] border-[#A9D6FF] py-[25px] text-[#737373] leading-[30px]">
+                <p>-  The best products start 
 with Figma</p>
-<p>- Design with real data</p>
-<p>- Lightning fast prototyping</p>
-<p>- Fastest way to organize</p>
-<p>- Work at the speed of thought.</p>
-    <p class="text-[#23A6F0]">Learn More</p>
-                </div>
+                <p>- Design with real data</p>
+                <p>- Lightning fast prototyping</p>
+                <p>- Fastest way to organize</p>
+                <p>- Work at the speed of thought.</p>
+                <p class="text-[#23A6F0]">Learn More</p>
             </div>
-        </section>
+        </div>
 
-        <section>
-            <div class="block1">
-                <p>What 
-Clients Say</p>
-<p>Problems trying to resolve 
+    </section>
+
+    <section class="mt-[50px] mb-[50px] lg:mt-[250px]  lg:mb-[50px]">
+        <div class="block1 flex flex-col justify-center items-center">
+            <p class="font-bold text-[35px] w-[200px] text-center mb-[20px] lg:w-[300px]">Leading Medicine</p>
+            <p class="w-[300px] text-center lg:w-[500px]">Problems trying to resolve 
 the conflict between the two major 
 realms of Classical physics: 
 Newtonian mechanics </p>
-            </div> 
-        </section>
+        </div> 
+    </section>
 
+    <section class="flex flex-col gap-[30px] lg:flex-row">
+        <div class="block1 w-[330px] h-[230px] border-solid border-[1px] m-auto border-[#DEDEDE] px-[30px] py-[30px]">
+            <img class="mb-[20px]" src="./sur/sur4.png" alt="">
+            <p class="w-[250px] mb-[20px]">Slate helps you see how many 
+more days you need to work to 
+reach your financial goal.</p>
+<img src="./sur/sur5.png" alt="">
+        </div>
 
+          <div class="block1 w-[330px] h-[230px] border-solid border-[1px] m-auto border-[#DEDEDE] px-[30px] py-[30px]">
+            <img class="mb-[20px]" src="./sur/sur4.png" alt="">
+            <p class="w-[250px] mb-[20px]">Slate helps you see how many 
+more days you need to work to 
+reach your financial goal.</p>
+<img src="./sur/sur7.png" alt="">
+        </div>
 
-    </main>
+          <div class="block1 w-[330px] h-[230px] border-solid border-[1px] m-auto border-[#DEDEDE] px-[30px] py-[30px]">
+            <img class="mb-[20px]" src="./sur/sur4.png" alt="">
+            <p class="w-[250px] mb-[20px]">Slate helps you see how many 
+more days you need to work to 
+reach your financial goal.</p>
+<img src="./sur/sur6.png" alt="">
+        </div>
+    </section>
+
+</main>
     
 </body>
 </html>
